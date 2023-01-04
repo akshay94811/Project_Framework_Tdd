@@ -31,17 +31,18 @@ package genral;
     import Config.PropertFiledata;
     import Utils.Atachscreebshots;
     import Utils.WebEventListener;
+    
+    
+ public class BaseClass  implements Autoconstatnt {
 
-public class BaseClass  implements Autoconstatnt {
-
-	public static WebDriver driver;
-	static PropertFiledata pf;
-	public static ChromeOptions options;
-	public static EventFiringWebDriver e_driver;
-	public static WebDriverEventListener eventListener;
-	public ExtentSparkReporter Sparkreporter;
-	public static ExtentReports reports;
-	public ExtentTest test;
+	  public static WebDriver driver;
+	  static PropertFiledata pf;
+	  public static ChromeOptions options;
+	  public static EventFiringWebDriver e_driver;
+	  public static WebDriverEventListener eventListener;
+	  public ExtentSparkReporter Sparkreporter;
+	  public static ExtentReports reports;
+	  public ExtentTest test;
 
 @BeforeTest
 public void Setup() throws IOException {
